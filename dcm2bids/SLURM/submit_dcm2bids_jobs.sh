@@ -1,17 +1,15 @@
 #!/bin/bash
 
-curTime=`date +"%Y%m%d-%H%M%S"`     			# pull date for -o/-e logs
+curTime=`date +"%Y%m%d-%H%M%S"`     		# pull date for -o/-e logs
 mkdir -p ./logs/${curTime}_slurmlogs/output     # create logs directory
 mkdir -p ./logs/${curTime}_slurmlogs/error
 
 
 # AccID should be defined as a variable here
-#AccID=XXXXXX
-AccID=r00223
+AccID=XXXXXX
 
 # replace this with your IU email
-#UserEmail=[yourIUemailgoeshere]
-UserEmail=robfren@iu.edu
+UserEmail=[yourIUemailgoeshere]
 
 
 filelist=./cast_dpk_sublist.tsv
