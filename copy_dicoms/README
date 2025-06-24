@@ -1,0 +1,17 @@
+README - file descriptions.
+
+example_for_loop.sh
+	Example loop script from module 2.3.1
+
+copy_dicoms.sh
+	Editable version of the copy dicom script from 2.3.1. 
+	This version includes additional functionality to read from the destination directory,
+	only copying over DICOMS that are not present in the destination direcory.
+
+copy_dicoms_UI.sh
+	Generalized version of the copy_dicoms.sh script, wrapped in basic UI.
+	Should not be edited other than optionally: 
+		"pattern"   variable on line 7, to input a default regex pattern to match (instead of manual input each time).
+		"outdir"    variable on line 15, to input a default destination location (instead of manual selection each time).
+
+
